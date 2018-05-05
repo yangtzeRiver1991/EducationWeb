@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache updateCheck="false">
+   <diskStore path="java.io.tmpdir"/>
+
+   <defaultCache
+            maxElementsInMemory="10000"
+            eternal="false"
+            timeToIdleSeconds="60"
+            timeToLiveSeconds="60"
+            overflowToDisk="true"
+            maxElementsOnDisk="10000000"
+            diskPersistent="false"
+            diskExpiryThreadIntervalSeconds="120"
+            memoryStoreEvictionPolicy="LRU"
+            />     
+            
+   <cache name="findDocumentList" 
+          maxElementsInMemory="10000" 
+          eternal="false"
+          timeToIdleSeconds="86400"
+          timeToLiveSeconds="86400"
+          overflowToDisk="true"
+          maxElementsOnDisk="10000000"
+          diskPersistent="false"
+          diskExpiryThreadIntervalSeconds="120"
+          memoryStoreEvictionPolicy="LRU"/> 
+          
+    <cache name="findHotDocumentList" 
+          maxElementsInMemory="10000" 
+          eternal="false"
+          timeToIdleSeconds="86400"
+          timeToLiveSeconds="86400"
+          overflowToDisk="true"
+          maxElementsOnDisk="10000000"
+          diskPersistent="false"
+          diskExpiryThreadIntervalSeconds="120"
+          memoryStoreEvictionPolicy="LRU"/> 
+          
+    <cache name="findTopDocumentList" 
+          maxElementsInMemory="10000" 
+          eternal="false"
+          timeToIdleSeconds="86400"
+          timeToLiveSeconds="86400"
+          overflowToDisk="true"
+          maxElementsOnDisk="10000000"
+          diskPersistent="false"
+          diskExpiryThreadIntervalSeconds="120"
+          memoryStoreEvictionPolicy="LRU"/> 
+          
+    <cache name="findDocumentByID" 
+          maxElementsInMemory="10000" 
+          eternal="false"
+          timeToIdleSeconds="86400"
+          timeToLiveSeconds="86400"
+          overflowToDisk="true"
+          maxElementsOnDisk="10000000"
+          diskPersistent="false"
+          diskExpiryThreadIntervalSeconds="120"
+          memoryStoreEvictionPolicy="LRU"/>
+          
+   <cache name="findDocumentByTitle" 
+          maxElementsInMemory="10000" 
+          eternal="false"
+          timeToIdleSeconds="86400"
+          timeToLiveSeconds="86400"
+          overflowToDisk="true"
+          maxElementsOnDisk="10000000"
+          diskPersistent="false"
+          diskExpiryThreadIntervalSeconds="120"
+          memoryStoreEvictionPolicy="LRU"/>
+          
+   <cache name="findUpDownDocument" 
+          maxElementsInMemory="10000" 
+          eternal="false"
+          timeToIdleSeconds="86400"
+          timeToLiveSeconds="86400"
+          overflowToDisk="true"
+          maxElementsOnDisk="10000000"
+          diskPersistent="false"
+          diskExpiryThreadIntervalSeconds="120"
+          memoryStoreEvictionPolicy="LRU"/>        
+          
+    <cache name="findCommentList" 
+          maxElementsInMemory="10000" 
+          eternal="false"
+          timeToIdleSeconds="86400"
+          timeToLiveSeconds="86400"
+          overflowToDisk="true"
+          maxElementsOnDisk="10000000"
+          diskPersistent="false"
+          diskExpiryThreadIntervalSeconds="120"
+          memoryStoreEvictionPolicy="LRU"/>
+          
+    <cache name="findComment" 
+          maxElementsInMemory="10000" 
+          eternal="false"
+          timeToIdleSeconds="86400"
+          timeToLiveSeconds="86400"
+          overflowToDisk="true"
+          maxElementsOnDisk="10000000"
+          diskPersistent="false"
+          diskExpiryThreadIntervalSeconds="120"
+          memoryStoreEvictionPolicy="LRU"/>        
+          
+    <cache name="findAttachmentList" 
+          maxElementsInMemory="10000" 
+          eternal="false"
+          timeToIdleSeconds="86400"
+          timeToLiveSeconds="86400"
+          overflowToDisk="true"
+          maxElementsOnDisk="10000000"
+          diskPersistent="false"
+          diskExpiryThreadIntervalSeconds="120"
+          memoryStoreEvictionPolicy="LRU"/> 
+          
+    <cache name="findAttachment" 
+          maxElementsInMemory="10000" 
+          eternal="false"
+          timeToIdleSeconds="86400"
+          timeToLiveSeconds="86400"
+          overflowToDisk="true"
+          maxElementsOnDisk="10000000"
+          diskPersistent="false"
+          diskExpiryThreadIntervalSeconds="120"
+          memoryStoreEvictionPolicy="LRU"/> 
+          
+    <cache name="findIPInfo" 
+          maxElementsInMemory="10000" 
+          eternal="false"
+          timeToIdleSeconds="86400"
+          timeToLiveSeconds="86400"
+          overflowToDisk="true"
+          maxElementsOnDisk="10000000"
+          diskPersistent="false"
+          diskExpiryThreadIntervalSeconds="120"
+          memoryStoreEvictionPolicy="LRU"/>          
+</ehcache>

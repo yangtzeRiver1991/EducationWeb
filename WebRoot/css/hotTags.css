@@ -1,0 +1,27 @@
+.clound-tag-table{
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}
+.clound-tag-table tr>td{
+   width: 33%;
+   text-align: center;
+}
+.clound-tag-table tr>td a{
+   margin: 0 auto;
+   margin-top:15px;
+   display:block;
+   width: 90%;
+   line-height:25px;
+   background-color: #7FFFD4;
+   text-decoration: none;
+   color: #000000;
+   box-shadow: 0 0 2px #00BFFF;
+border: 1px solid #008080;
+border-radius:3px;
+}
+.clound-tag-table tr>td a:HOVER {
+   position:relative;
+   top:-2px;
+background-color:#00FFFF;
+}

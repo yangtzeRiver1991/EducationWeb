@@ -1,0 +1,68 @@
+html,body{
+	background-color: #dff1f4;
+}
+body{
+	padding: 0 3px;
+}
+
+.main-title{
+	text-align: center;
+}
+
+.btn-div{
+	margin:0 auto;
+	margin-top:30px;
+	margin-bottom:60px;
+	height: 30px;
+	width: 150px;
+}
+.btn-div>button{
+	height: 30px;
+	width: 100%;
+}
+
+.tooltip.top {
+	margin-top: -35px;
+}
+
+.tag-level1{
+	list-style: none;
+}
+.tag-level1>li{
+	margin-top:10px;
+	display: inline;
+	float: left;
+}
+.tag-level2{
+	list-style: none;
+	width:120px;
+}
+.tag-level2_2{
+	margin-top:5px;
+	list-style: none;
+	width:300px;
+}
+.tag-level2_2>li{
+	padding-top: 5px;
+}
+
+#empty-prompt{
+	display: none;
+}
+
+.fixed-table-pagination div.pagination .pagination {
+	margin-top: 4px;
+}
+.fixed-table-pagination .pagination a {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+/*table css begin*/
+tbody tr th{
+	border: none;
+}
+tbody tr td{
+	border: none;
+}
+/*table css end*/

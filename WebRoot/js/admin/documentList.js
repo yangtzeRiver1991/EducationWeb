@@ -603,6 +603,14 @@ $(document).ready(function(){
 						  .append("' href='javascript:void(0)'>解顶</a>&nbsp;&nbsp;");
 			 }
 			 
+			 if(row.tags.indexOf("课程") != -1){
+				 operation.append("<a class='btn  btn-info course-manage-link-button ' documentId='")
+				          .append(row.id)
+				          .append("' operation='0' rowindex='")
+				          .append(index)
+						  .append("' href='javascript:void(0)'>课程进度管理</a>&nbsp;&nbsp;");
+			 }
+			 
 			 operation.append("<a class='btn  btn-success attachment-link-button ' documentId='")
 			          .append(row.id)
 			          .append("' documentTitle='")
